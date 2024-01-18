@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Test Case" time="180.326" tests="4" failures="0" errors="0">
+   <testsuite name="All Test Case" tests="4" failures="0" errors="0" time="180.326" skipped="0" timestamp="2024-01-18 17:34:04" hostname="DELL - MII-YOGI" id="Test Suites/All Test Case">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\Android-Testing\\Reports\\20240118_173359\\All Test Case\\20240118_173359"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\Android-Testing\\Reports\\20240118_173359\\All Test Case\\20240118_173359\\appium.log, C:\\Users\\DELL\\Katalon Studio\\Android-Testing\\Reports\\20240118_173359\\All Test Case\\20240118_173359\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - MII-YOGI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.15.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="sdk_gphone_x86_64"/>
+         <property name="hostAddress" value="192.168.1.23"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/1 - Open 3 Menus" time="47.225" classname="Test Cases/1 - Open 3 Menus" status="PASSED">
+         <system-out><![CDATA[2024-01-18 17:34:04 - [TEST_CASE][PASSED] - Test Cases/1 - Open 3 Menus: Test Cases/1 - Open 3 Menus
+
+2024-01-18 17:34:05 - [TEST_STEP][PASSED] - appRelease.keyword.firstOpenApp(): appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:34:05 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-01-18 17:34:08 - [MESSAGE][INFO] - Appium server started on port 60,526
+
+2024-01-18 17:34:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\DELL\Katalon Studio\Android-Testing\External File\app-release.apk'
+
+2024-01-18 17:34:32 - [MESSAGE][INFO] - First Application
+
+2024-01-18 17:34:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:35 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.view.View' is exist
+
+2024-01-18 17:34:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:35 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView' is exist
+
+2024-01-18 17:34:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:35 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (1)' is exist
+
+2024-01-18 17:34:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:36 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:34:36 - [MESSAGE][PASSED] - appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:34:36 - [TEST_STEP][PASSED] - comment("Change to Search menu"): Change to Search menu
+
+2024-01-18 17:34:36 - [MESSAGE][INFO] - Change to Search menu
+
+2024-01-18 17:34:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:34:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:34:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Main Page/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Main Page/android.widget.ImageView (1)'
+
+2024-01-18 17:34:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main Page/android.widget.ImageView (1)'
+
+2024-01-18 17:34:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Main Page/android.widget.EditText"), 0): Element 'Object Repository/Main Page/android.widget.EditText' is exist
+
+2024-01-18 17:34:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:40 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.EditText' is exist
+
+2024-01-18 17:34:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Main Page/android.widget.ImageView (3)"), 0): Element 'Object Repository/Main Page/android.widget.ImageView (3)' is exist
+
+2024-01-18 17:34:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:41 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (3)' is exist
+
+2024-01-18 17:34:41 - [TEST_STEP][PASSED] - comment("Change to Watchlist menu"): Change to Watchlist menu
+
+2024-01-18 17:34:41 - [MESSAGE][INFO] - Change to Watchlist menu
+
+2024-01-18 17:34:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:34:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:34:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Main Page/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Main Page/android.widget.ImageView (2)'
+
+2024-01-18 17:34:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main Page/android.widget.ImageView (2)'
+
+2024-01-18 17:34:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Main Page/android.view.View (1)"), 0): Element 'Object Repository/Main Page/android.view.View (1)' is exist
+
+2024-01-18 17:34:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:45 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.view.View (1)' is exist
+
+2024-01-18 17:34:45 - [TEST_STEP][PASSED] - comment("Return to Home menu"): Return to Home menu
+
+2024-01-18 17:34:45 - [MESSAGE][INFO] - Return to Home menu
+
+2024-01-18 17:34:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:34:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:34:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Main Page/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Main Page/android.widget.ImageView'
+
+2024-01-18 17:34:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main Page/android.widget.ImageView'
+
+2024-01-18 17:34:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Main Page/android.view.View"), 0): Element 'Object Repository/Main Page/android.view.View' is exist
+
+2024-01-18 17:34:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:34:49 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.view.View' is exist
+
+2024-01-18 17:34:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-01-18 17:34:51 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 - Home Movie Select" time="46.239" classname="Test Cases/2 - Home Movie Select" status="PASSED">
+         <system-out><![CDATA[2024-01-18 17:34:51 - [TEST_CASE][PASSED] - Test Cases/2 - Home Movie Select: Test Cases/2 - Home Movie Select
+
+2024-01-18 17:34:52 - [TEST_STEP][PASSED] - appRelease.keyword.firstOpenApp(): appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:34:52 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-01-18 17:34:54 - [MESSAGE][INFO] - Appium server started on port 60,886
+
+2024-01-18 17:35:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\DELL\Katalon Studio\Android-Testing\External File\app-release.apk'
+
+2024-01-18 17:35:14 - [MESSAGE][INFO] - First Application
+
+2024-01-18 17:35:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:15 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.view.View' is exist
+
+2024-01-18 17:35:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:17 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView' is exist
+
+2024-01-18 17:35:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:17 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (1)' is exist
+
+2024-01-18 17:35:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:18 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:35:18 - [MESSAGE][PASSED] - appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:35:18 - [TEST_STEP][PASSED] - comment("Clicking on 1 film card"): Clicking on 1 film card
+
+2024-01-18 17:35:18 - [MESSAGE][INFO] - Clicking on 1 film card
+
+2024-01-18 17:35:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Home Page Test/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Home Page Test/android.widget.ImageView'
+
+2024-01-18 17:35:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page Test/android.widget.ImageView'
+
+2024-01-18 17:35:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Home Page Test/android.widget.ImageView (1)"), 0): Element 'Object Repository/Home Page Test/android.widget.ImageView (1)' is exist
+
+2024-01-18 17:35:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:20 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page Test/android.widget.ImageView (1)' is exist
+
+2024-01-18 17:35:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Home Page Test/android.widget.ImageView (2)"), 0): Element 'Object Repository/Home Page Test/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:35:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:20 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page Test/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:35:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Home Page Test/android.view.View"), 0): Element 'Object Repository/Home Page Test/android.view.View' is exist
+
+2024-01-18 17:35:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:20 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page Test/android.view.View' is exist
+
+2024-01-18 17:35:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Home Page Test/android.view.View (1)"), 0): Element 'Object Repository/Home Page Test/android.view.View (1)' is exist
+
+2024-01-18 17:35:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:21 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page Test/android.view.View (1)' is exist
+
+2024-01-18 17:35:21 - [TEST_STEP][PASSED] - comment("Change to Reviews"): Change to Reviews
+
+2024-01-18 17:35:21 - [MESSAGE][INFO] - Change to Reviews
+
+2024-01-18 17:35:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:35:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:35:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Home Page Test/android.view.View (2)"), 0): Tapped on element 'Object Repository/Home Page Test/android.view.View (2)'
+
+2024-01-18 17:35:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page Test/android.view.View (2)'
+
+2024-01-18 17:35:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Home Page Test/android.widget.ImageView (3)"), 0): Element 'Object Repository/Home Page Test/android.widget.ImageView (3)' is exist
+
+2024-01-18 17:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:26 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page Test/android.widget.ImageView (3)' is exist
+
+2024-01-18 17:35:26 - [TEST_STEP][PASSED] - comment("Change to Cast"): Change to Cast
+
+2024-01-18 17:35:26 - [MESSAGE][INFO] - Change to Cast
+
+2024-01-18 17:35:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:35:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:35:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Home Page Test/android.view.View (3)"), 0): Tapped on element 'Object Repository/Home Page Test/android.view.View (3)'
+
+2024-01-18 17:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page Test/android.view.View (3)'
+
+2024-01-18 17:35:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Home Page Test/android.widget.ImageView (4)"), 0): Element 'Object Repository/Home Page Test/android.widget.ImageView (4)' is exist
+
+2024-01-18 17:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:31 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page Test/android.widget.ImageView (4)' is exist
+
+2024-01-18 17:35:31 - [TEST_STEP][PASSED] - comment("Change back to About Movie"): Change back to About Movie
+
+2024-01-18 17:35:31 - [MESSAGE][INFO] - Change back to About Movie
+
+2024-01-18 17:35:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:35:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:35:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Home Page Test/android.view.View (4)"), 0): Tapped on element 'Object Repository/Home Page Test/android.view.View (4)'
+
+2024-01-18 17:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page Test/android.view.View (4)'
+
+2024-01-18 17:35:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Home Page Test/android.view.View (1)"), 0): Element 'Object Repository/Home Page Test/android.view.View (1)' is exist
+
+2024-01-18 17:35:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:35:36 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page Test/android.view.View (1)' is exist
+
+2024-01-18 17:35:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-01-18 17:35:37 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3 - Search Film" time="52.514" classname="Test Cases/3 - Search Film" status="PASSED">
+         <system-out><![CDATA[2024-01-18 17:35:37 - [TEST_CASE][PASSED] - Test Cases/3 - Search Film: Test Cases/3 - Search Film
+
+2024-01-18 17:35:38 - [TEST_STEP][PASSED] - appRelease.keyword.firstOpenApp(): appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:35:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-01-18 17:35:41 - [MESSAGE][INFO] - Appium server started on port 61,247
+
+2024-01-18 17:36:01 - [MESSAGE][PASSED] - Started app at: 'C:\Users\DELL\Katalon Studio\Android-Testing\External File\app-release.apk'
+
+2024-01-18 17:36:01 - [MESSAGE][INFO] - First Application
+
+2024-01-18 17:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:01 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.view.View' is exist
+
+2024-01-18 17:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:02 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView' is exist
+
+2024-01-18 17:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:02 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (1)' is exist
+
+2024-01-18 17:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:04 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:36:04 - [MESSAGE][PASSED] - appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:36:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search Test/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Search Test/android.widget.ImageView'
+
+2024-01-18 17:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Test/android.widget.ImageView'
+
+2024-01-18 17:36:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search Test/android.widget.EditText"), 0): Tapped on element 'Object Repository/Search Test/android.widget.EditText'
+
+2024-01-18 17:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Test/android.widget.EditText'
+
+2024-01-18 17:36:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search Test/android.widget.EditText (1)"), "The Godfather"): Send keys 'The Godfather' on test object 'Object Repository/Search Test/android.widget.EditText (1)' successfully.
+
+2024-01-18 17:36:07 - [MESSAGE][PASSED] - Send keys 'The Godfather' on test object 'Object Repository/Search Test/android.widget.EditText (1)' successfully.
+
+2024-01-18 17:36:07 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2024-01-18 17:36:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-01-18 17:36:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search Test/add/android.widget.ImageViewChoice"), 0): Tapped on element 'Object Repository/Search Test/add/android.widget.ImageViewChoice'
+
+2024-01-18 17:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Test/add/android.widget.ImageViewChoice'
+
+2024-01-18 17:36:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Search Test/android.widget.ImageView (2)"), 0): Element 'Object Repository/Search Test/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:36:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:13 - [MESSAGE][PASSED] - Element 'Object Repository/Search Test/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:36:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Search Test/android.widget.ImageView (3)"), 0): Element 'Object Repository/Search Test/android.widget.ImageView (3)' is exist
+
+2024-01-18 17:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:13 - [MESSAGE][PASSED] - Element 'Object Repository/Search Test/android.widget.ImageView (3)' is exist
+
+2024-01-18 17:36:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Search Test/android.view.View"), 0): Element 'Object Repository/Search Test/android.view.View' is exist
+
+2024-01-18 17:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:13 - [MESSAGE][PASSED] - Element 'Object Repository/Search Test/android.view.View' is exist
+
+2024-01-18 17:36:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Search Test/android.view.View (1)"), 0): Element 'Object Repository/Search Test/android.view.View (1)' is exist
+
+2024-01-18 17:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:14 - [MESSAGE][PASSED] - Element 'Object Repository/Search Test/android.view.View (1)' is exist
+
+2024-01-18 17:36:14 - [TEST_STEP][PASSED] - comment("Change to Reviews"): Change to Reviews
+
+2024-01-18 17:36:14 - [MESSAGE][INFO] - Change to Reviews
+
+2024-01-18 17:36:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:36:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:36:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search Test/android.view.View (2)"), 0): Tapped on element 'Object Repository/Search Test/android.view.View (2)'
+
+2024-01-18 17:36:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Test/android.view.View (2)'
+
+2024-01-18 17:36:18 - [TEST_STEP][PASSED] - comment("Change to Cast"): Change to Cast
+
+2024-01-18 17:36:18 - [MESSAGE][INFO] - Change to Cast
+
+2024-01-18 17:36:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:36:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:36:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search Test/android.view.View (3)"), 0): Tapped on element 'Object Repository/Search Test/android.view.View (3)'
+
+2024-01-18 17:36:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Test/android.view.View (3)'
+
+2024-01-18 17:36:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Search Test/android.widget.ImageView (5)"), 0): Element 'Object Repository/Search Test/android.widget.ImageView (5)' is exist
+
+2024-01-18 17:36:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:24 - [MESSAGE][PASSED] - Element 'Object Repository/Search Test/android.widget.ImageView (5)' is exist
+
+2024-01-18 17:36:24 - [TEST_STEP][PASSED] - comment("Change back to About Movie"): Change back to About Movie
+
+2024-01-18 17:36:24 - [MESSAGE][INFO] - Change back to About Movie
+
+2024-01-18 17:36:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-18 17:36:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-18 17:36:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search Test/android.view.View (4)"), 0): Tapped on element 'Object Repository/Search Test/android.view.View (4)'
+
+2024-01-18 17:36:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Test/android.view.View (4)'
+
+2024-01-18 17:36:28 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Search Test/android.view.View (1)"), 0): Element 'Object Repository/Search Test/android.view.View (1)' is exist
+
+2024-01-18 17:36:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:28 - [MESSAGE][PASSED] - Element 'Object Repository/Search Test/android.view.View (1)' is exist
+
+2024-01-18 17:36:28 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-01-18 17:36:30 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4 - Add Movie to Watchlist" time="33.877" classname="Test Cases/4 - Add Movie to Watchlist" status="PASSED">
+         <system-out><![CDATA[2024-01-18 17:36:30 - [TEST_CASE][PASSED] - Test Cases/4 - Add Movie to Watchlist: Test Cases/4 - Add Movie to Watchlist
+
+2024-01-18 17:36:31 - [TEST_STEP][PASSED] - appRelease.keyword.firstOpenApp(): appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:36:31 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-01-18 17:36:33 - [MESSAGE][INFO] - Appium server started on port 61,675
+
+2024-01-18 17:36:53 - [MESSAGE][PASSED] - Started app at: 'C:\Users\DELL\Katalon Studio\Android-Testing\External File\app-release.apk'
+
+2024-01-18 17:36:53 - [MESSAGE][INFO] - First Application
+
+2024-01-18 17:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:54 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.view.View' is exist
+
+2024-01-18 17:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:54 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView' is exist
+
+2024-01-18 17:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:54 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (1)' is exist
+
+2024-01-18 17:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:55 - [MESSAGE][PASSED] - Element 'Object Repository/Main Page/android.widget.ImageView (2)' is exist
+
+2024-01-18 17:36:55 - [MESSAGE][PASSED] - appRelease.keyword.firstOpenApp is PASSED
+
+2024-01-18 17:36:55 - [TEST_STEP][PASSED] - comment("Click on card"): Click on card
+
+2024-01-18 17:36:55 - [MESSAGE][INFO] - Click on card
+
+2024-01-18 17:36:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Watchlist Test/android.widget.ImageViewCard"), 0): Tapped on element 'Object Repository/Watchlist Test/android.widget.ImageViewCard'
+
+2024-01-18 17:36:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Watchlist Test/android.widget.ImageViewCard'
+
+2024-01-18 17:36:57 - [TEST_STEP][PASSED] - comment("Add to watchlist"): Add to watchlist
+
+2024-01-18 17:36:57 - [MESSAGE][INFO] - Add to watchlist
+
+2024-01-18 17:36:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Watchlist Test/android.widget.ButtonBookmark"), 0): Tapped on element 'Object Repository/Watchlist Test/android.widget.ButtonBookmark'
+
+2024-01-18 17:36:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:36:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Watchlist Test/android.widget.ButtonBookmark'
+
+2024-01-18 17:36:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Watchlist Test/android.widget.ButtonBack"), 0): Tapped on element 'Object Repository/Watchlist Test/android.widget.ButtonBack'
+
+2024-01-18 17:36:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:37:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Watchlist Test/android.widget.ButtonBack'
+
+2024-01-18 17:37:01 - [TEST_STEP][PASSED] - comment("Go to watchlist menu"): Go to watchlist menu
+
+2024-01-18 17:37:01 - [MESSAGE][INFO] - Go to watchlist menu
+
+2024-01-18 17:37:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Watchlist Test/android.widget.ImageView3"), 0): Tapped on element 'Object Repository/Watchlist Test/android.widget.ImageView3'
+
+2024-01-18 17:37:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:37:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Watchlist Test/android.widget.ImageView3'
+
+2024-01-18 17:37:02 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Watchlist Test/android.widget.ImageViewCard (1)"), 0): Element 'Object Repository/Watchlist Test/android.widget.ImageViewCard (1)' is exist
+
+2024-01-18 17:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2024-01-18 17:37:02 - [MESSAGE][PASSED] - Element 'Object Repository/Watchlist Test/android.widget.ImageViewCard (1)' is exist
+
+2024-01-18 17:37:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-01-18 17:37:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-18 17:34:04 - [TEST_SUITE][PASSED] - All Test Case: Test Cases/4 - Add Movie to Watchlist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B4B38FFB421B42A85DF7003F88973BC0",
+  "keywordClasses": [
+    {
+      "name": "appRelease.keyword",
+      "keywordMethods": [
+        {
+          "name": "firstOpenApp",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

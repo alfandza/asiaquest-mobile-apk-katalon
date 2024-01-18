@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Test Case,,,,2024-01-18 17:34:04,2024-01-18 17:37:04,3m - 0.326s,PASSED
+,,,,,,,
+Test Cases/1 - Open 3 Menus,,,,2024-01-18 17:34:04,2024-01-18 17:34:51,47.225s,PASSED
+appRelease.keyword.firstOpenApp(),,,,2024-01-18 17:34:05,2024-01-18 17:34:36,31.084s,PASSED
+"comment(""Change to Search menu"")",,,,2024-01-18 17:34:36,2024-01-18 17:34:36,0.004s,PASSED
+delay(3),,,,2024-01-18 17:34:36,2024-01-18 17:34:39,3.024s,PASSED
+"tap(findTestObject(""Object Repository/Main Page/android.widget.ImageView (1)""), 0)",,,,2024-01-18 17:34:39,2024-01-18 17:34:39,0.429s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Main Page/android.widget.EditText""), 0)",,,,2024-01-18 17:34:39,2024-01-18 17:34:40,1.286s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Main Page/android.widget.ImageView (3)""), 0)",,,,2024-01-18 17:34:40,2024-01-18 17:34:41,0.294s,PASSED
+"comment(""Change to Watchlist menu"")",,,,2024-01-18 17:34:41,2024-01-18 17:34:41,0.003s,PASSED
+delay(3),,,,2024-01-18 17:34:41,2024-01-18 17:34:44,3.007s,PASSED
+"tap(findTestObject(""Object Repository/Main Page/android.widget.ImageView (2)""), 0)",,,,2024-01-18 17:34:44,2024-01-18 17:34:45,1.001s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Main Page/android.view.View (1)""), 0)",,,,2024-01-18 17:34:45,2024-01-18 17:34:45,0.196s,PASSED
+"comment(""Return to Home menu"")",,,,2024-01-18 17:34:45,2024-01-18 17:34:45,0.004s,PASSED
+delay(3),,,,2024-01-18 17:34:45,2024-01-18 17:34:48,3.005s,PASSED
+"tap(findTestObject(""Object Repository/Main Page/android.widget.ImageView""), 0)",,,,2024-01-18 17:34:48,2024-01-18 17:34:49,0.879s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Main Page/android.view.View""), 0)",,,,2024-01-18 17:34:49,2024-01-18 17:34:49,0.249s,PASSED
+closeApplication(),,,,2024-01-18 17:34:49,2024-01-18 17:34:51,2.161s,PASSED
+,,,,,,,
+Test Cases/2 - Home Movie Select,,,,2024-01-18 17:34:51,2024-01-18 17:35:37,46.239s,PASSED
+appRelease.keyword.firstOpenApp(),,,,2024-01-18 17:34:52,2024-01-18 17:35:18,25.664s,PASSED
+"comment(""Clicking on 1 film card"")",,,,2024-01-18 17:35:18,2024-01-18 17:35:18,0.003s,PASSED
+"tap(findTestObject(""Object Repository/Home Page Test/android.widget.ImageView""), 0)",,,,2024-01-18 17:35:18,2024-01-18 17:35:18,0.470s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Home Page Test/android.widget.ImageView (1)""), 0)",,,,2024-01-18 17:35:18,2024-01-18 17:35:20,1.598s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Home Page Test/android.widget.ImageView (2)""), 0)",,,,2024-01-18 17:35:20,2024-01-18 17:35:20,0.492s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Home Page Test/android.view.View""), 0)",,,,2024-01-18 17:35:20,2024-01-18 17:35:20,0.235s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Home Page Test/android.view.View (1)""), 0)",,,,2024-01-18 17:35:20,2024-01-18 17:35:21,0.295s,PASSED
+"comment(""Change to Reviews"")",,,,2024-01-18 17:35:21,2024-01-18 17:35:21,0.005s,PASSED
+delay(3),,,,2024-01-18 17:35:21,2024-01-18 17:35:24,3.012s,PASSED
+"tap(findTestObject(""Object Repository/Home Page Test/android.view.View (2)""), 0)",,,,2024-01-18 17:35:24,2024-01-18 17:35:25,1.670s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Home Page Test/android.widget.ImageView (3)""), 0)",,,,2024-01-18 17:35:25,2024-01-18 17:35:26,0.534s,PASSED
+"comment(""Change to Cast"")",,,,2024-01-18 17:35:26,2024-01-18 17:35:26,0.008s,PASSED
+delay(3),,,,2024-01-18 17:35:26,2024-01-18 17:35:29,3.006s,PASSED
+"tap(findTestObject(""Object Repository/Home Page Test/android.view.View (3)""), 0)",,,,2024-01-18 17:35:29,2024-01-18 17:35:31,1.766s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Home Page Test/android.widget.ImageView (4)""), 0)",,,,2024-01-18 17:35:31,2024-01-18 17:35:31,0.587s,PASSED
+"comment(""Change back to About Movie"")",,,,2024-01-18 17:35:31,2024-01-18 17:35:31,0.005s,PASSED
+delay(3),,,,2024-01-18 17:35:31,2024-01-18 17:35:34,3.015s,PASSED
+"tap(findTestObject(""Object Repository/Home Page Test/android.view.View (4)""), 0)",,,,2024-01-18 17:35:34,2024-01-18 17:35:35,1.222s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Home Page Test/android.view.View (1)""), 0)",,,,2024-01-18 17:35:35,2024-01-18 17:35:36,0.262s,PASSED
+closeApplication(),,,,2024-01-18 17:35:36,2024-01-18 17:35:37,1.727s,PASSED
+,,,,,,,
+Test Cases/3 - Search Film,,,,2024-01-18 17:35:37,2024-01-18 17:36:30,52.514s,PASSED
+appRelease.keyword.firstOpenApp(),,,,2024-01-18 17:35:38,2024-01-18 17:36:04,25.697s,PASSED
+"tap(findTestObject(""Object Repository/Search Test/android.widget.ImageView""), 0)",,,,2024-01-18 17:36:04,2024-01-18 17:36:05,1.343s,PASSED
+"tap(findTestObject(""Object Repository/Search Test/android.widget.EditText""), 0)",,,,2024-01-18 17:36:05,2024-01-18 17:36:06,0.558s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search Test/android.widget.EditText (1)""), ""The Godfather"")",,,,2024-01-18 17:36:06,2024-01-18 17:36:07,1.596s,PASSED
+hideKeyboard(),,,,2024-01-18 17:36:07,2024-01-18 17:36:10,2.536s,PASSED
+"tap(findTestObject(""Object Repository/Search Test/add/android.widget.ImageViewChoice""), 0)",,,,2024-01-18 17:36:10,2024-01-18 17:36:12,2.366s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Search Test/android.widget.ImageView (2)""), 0)",,,,2024-01-18 17:36:12,2024-01-18 17:36:13,0.628s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Search Test/android.widget.ImageView (3)""), 0)",,,,2024-01-18 17:36:13,2024-01-18 17:36:13,0.283s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Search Test/android.view.View""), 0)",,,,2024-01-18 17:36:13,2024-01-18 17:36:13,0.265s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Search Test/android.view.View (1)""), 0)",,,,2024-01-18 17:36:13,2024-01-18 17:36:14,0.232s,PASSED
+"comment(""Change to Reviews"")",,,,2024-01-18 17:36:14,2024-01-18 17:36:14,0.003s,PASSED
+delay(3),,,,2024-01-18 17:36:14,2024-01-18 17:36:17,3.006s,PASSED
+"tap(findTestObject(""Object Repository/Search Test/android.view.View (2)""), 0)",,,,2024-01-18 17:36:17,2024-01-18 17:36:18,1.668s,PASSED
+"comment(""Change to Cast"")",,,,2024-01-18 17:36:18,2024-01-18 17:36:18,0.006s,PASSED
+delay(3),,,,2024-01-18 17:36:18,2024-01-18 17:36:21,3.020s,PASSED
+"tap(findTestObject(""Object Repository/Search Test/android.view.View (3)""), 0)",,,,2024-01-18 17:36:21,2024-01-18 17:36:22,0.298s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Search Test/android.widget.ImageView (5)""), 0)",,,,2024-01-18 17:36:22,2024-01-18 17:36:24,2.097s,PASSED
+"comment(""Change back to About Movie"")",,,,2024-01-18 17:36:24,2024-01-18 17:36:24,0.003s,PASSED
+delay(3),,,,2024-01-18 17:36:24,2024-01-18 17:36:27,3.006s,PASSED
+"tap(findTestObject(""Object Repository/Search Test/android.view.View (4)""), 0)",,,,2024-01-18 17:36:27,2024-01-18 17:36:28,1.109s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Search Test/android.view.View (1)""), 0)",,,,2024-01-18 17:36:28,2024-01-18 17:36:28,0.255s,PASSED
+closeApplication(),,,,2024-01-18 17:36:28,2024-01-18 17:36:30,1.962s,PASSED
+,,,,,,,
+Test Cases/4 - Add Movie to Watchlist,,,,2024-01-18 17:36:30,2024-01-18 17:37:04,33.877s,PASSED
+appRelease.keyword.firstOpenApp(),,,,2024-01-18 17:36:31,2024-01-18 17:36:55,24.047s,PASSED
+"comment(""Click on card"")",,,,2024-01-18 17:36:55,2024-01-18 17:36:55,0.028s,PASSED
+"tap(findTestObject(""Object Repository/Watchlist Test/android.widget.ImageViewCard""), 0)",,,,2024-01-18 17:36:55,2024-01-18 17:36:57,2.233s,PASSED
+"comment(""Add to watchlist"")",,,,2024-01-18 17:36:57,2024-01-18 17:36:57,0.005s,PASSED
+"tap(findTestObject(""Object Repository/Watchlist Test/android.widget.ButtonBookmark""), 0)",,,,2024-01-18 17:36:57,2024-01-18 17:36:59,2.250s,PASSED
+"tap(findTestObject(""Object Repository/Watchlist Test/android.widget.ButtonBack""), 0)",,,,2024-01-18 17:36:59,2024-01-18 17:37:01,1.857s,PASSED
+"comment(""Go to watchlist menu"")",,,,2024-01-18 17:37:01,2024-01-18 17:37:01,0.004s,PASSED
+"tap(findTestObject(""Object Repository/Watchlist Test/android.widget.ImageView3""), 0)",,,,2024-01-18 17:37:01,2024-01-18 17:37:02,0.890s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Watchlist Test/android.widget.ImageViewCard (1)""), 0)",,,,2024-01-18 17:37:02,2024-01-18 17:37:02,0.318s,PASSED
+closeApplication(),,,,2024-01-18 17:37:02,2024-01-18 17:37:04,1.676s,PASSED
